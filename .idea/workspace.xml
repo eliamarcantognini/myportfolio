@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="676a0ce0-ac79-4af7-8ca8-8f081297d341" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="LMG710EMb6ebc845" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aM2xBxkAPmWbllXPZlXLsrsOaD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="F:/AndroidStudioWorkspace/arcore-android-sdk/samples/hello_ar_java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="676a0ce0-ac79-4af7-8ca8-8f081297d341" name="Default Changelist" comment="" />
+      <created>1586531386089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586531386089</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1397" y="286" key="FileChooserDialogImpl" timestamp="1604402379148">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1397" y="286" key="FileChooserDialogImpl/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1604402379148" />
+    <state x="781" y="167" key="SettingsEditor" timestamp="1604308376537">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="781" y="167" key="SettingsEditor/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1604308376537" />
+    <state x="739" y="210" width="1200" height="800" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1604326554086">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="739" y="210" width="1200" height="800" key="com.android.tools.idea.avdmanager.AvdListDialog/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1604326554086" />
+    <state x="976" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1604402358924">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="976" y="349" key="com.intellij.ide.util.TipDialog/2560.0.1920.1050/0.0.2560.1050@0.0.2560.1050" timestamp="1604402358924" />
+  </component>
+</project>
