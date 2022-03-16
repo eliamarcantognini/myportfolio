@@ -47,7 +47,7 @@ class _ResumeTabState extends State<ResumeTab> {
                 ],
               ),
               Text(
-                'Computer Science & Engineering @ Alma Mater Studiorum | 2021 - Now',
+                'Computer Science & Engineering LM @ Alma Mater Studiorum | 2021 - Now',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
@@ -135,7 +135,7 @@ class _ResumeTabState extends State<ResumeTab> {
                 ],
               ),
               Text(
-                'Pastoral educator @ Pesaro | 2014 - Now',
+                'Pastoral Educator @ Pesaro | 2014 - Now',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
@@ -242,7 +242,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 20,
                   ),
                   Text(
-                    'C++',
+                    'Kotlin',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,
@@ -260,7 +260,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 20,
                   ),
                   Text(
-                    'MatLab',
+                    'Scala',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,
@@ -281,7 +281,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 20,
                   ),
                   Text(
-                    'HTML',
+                    'TypeScript',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,
@@ -290,7 +290,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 20,
                   ),
                   Text(
-                    'CSS',
+                    'HTML/CSS',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,
@@ -299,7 +299,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 20,
                   ),
                   Text(
-                    'PHP',
+                    'PHP7',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,
@@ -319,7 +319,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 10,
                   ),
                   Text(
-                    'Tools',
+                    'Tool & Framework',
                     style: Theme.of(context).textTheme.subtitle1,
                     textScaleFactor: 2,
                     textAlign: TextAlign.right,
@@ -352,7 +352,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 20,
                   ),
                   Text(
-                    'Eclipse',
+                    'IntellJ Suite',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,
@@ -364,7 +364,7 @@ class _ResumeTabState extends State<ResumeTab> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    'JUnit Test',
+                    'Angular',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,
@@ -373,7 +373,46 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 20,
                   ),
                   Text(
-                    'XAMPP',
+                    'NodeJS',
+                    style: Theme.of(context).textTheme.caption,
+                    textScaleFactor: 2,
+                    textAlign: TextAlign.center,
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Text(
+                    'MongoDB',
+                    style: Theme.of(context).textTheme.caption,
+                    textScaleFactor: 2,
+                    textAlign: TextAlign.center,
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Text(
+                    'Firebase',
+                    style: Theme.of(context).textTheme.caption,
+                    textScaleFactor: 2,
+                    textAlign: TextAlign.center,
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    'Unit Test TDD',
+                    style: Theme.of(context).textTheme.caption,
+                    textScaleFactor: 2,
+                    textAlign: TextAlign.center,
+                  ),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Text(
+                    'React',
                     style: Theme.of(context).textTheme.caption,
                     textScaleFactor: 2,
                     textAlign: TextAlign.center,

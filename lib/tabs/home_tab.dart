@@ -28,7 +28,7 @@ class HomeTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                '22yo italian nerd.',
+                '23yo italian nerd.',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
@@ -53,20 +53,11 @@ class HomeTab extends StatelessWidget {
                     icon: SizedBox(
                         width: 20,
                         height: 20,
-                        child: Image.asset(Assets.twitter)),
-                    label: Text('Twitter'),
+                        child: Image.asset(Assets.linkedin)),
+                    label: Text('Linkedin'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_TWITTER, 'eliamarcantognini'),
+                        .open(Constants.PROFILE_LINKEDIN, 'eliamarcantognini'),
                   ),
-                  FlatButton.icon(
-                    icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.medium)),
-                    label: Text('Medium'),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_MEDIUM, 'eliamarcantognini'),
-                  )
                 ],
               ),
               Row(
@@ -91,15 +82,6 @@ class HomeTab extends StatelessWidget {
                     onPressed: () => html.window
                         .open(Constants.PROFILE_FACEBOOK, 'eliamarcantognini'),
                   ),
-                  FlatButton.icon(
-                    icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.linkedin)),
-                    label: Text('Linkedin'),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_LINKEDIN, 'eliamarcantognini'),
-                  )
                 ],
               ),
             ],
@@ -109,27 +91,3 @@ class HomeTab extends StatelessWidget {
     );
   }
 }
-
-// TODO Add contact tab for mail
-// _launchMailTo(final BuildContext context) async {
-//    if (Platform.isAndroid || Platform.isIOS) {
-//     if (await canLaunch(Constants.PROFILE_MAIL)) {
-//       await launch(Constants.PROFILE_MAIL);
-//     } else {
-//       throw 'Could not send email';
-//     }
-//   } else {
-//     // TODO ADD WEB SUPPORT FOR MAILTO
-//      ClipboardManager.copyToClipBoard(Constants.EMAIL).then((result) {
-//                         final snackBar = SnackBar(
-//                           content: Text('Copied to Clipboard'),
-//                           action: SnackBarAction(
-//                             label: 'Undo',
-//                             onPressed: () {},
-//                           ),
-//                         );
-//                         Scaffold.of(context).showSnackBar(snackBar);
-//                       });
-
-//      }
-//    }
