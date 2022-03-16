@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+
 darkTheme(context) {
   return ThemeData(
     fontFamily: 'GoogleSansRegular',
     primarySwatch: Colors.blue,
     primaryColor: Colors.black,
     accentColor: Colors.blue,
+    backgroundColor: Colors.white,
     disabledColor: Colors.grey,
     cardColor: Color(0xff1f2124),
     canvasColor: Colors.black,
@@ -18,12 +20,14 @@ darkTheme(context) {
     ),
   );
 }
+
 lightTheme(context) {
   return ThemeData(
-     fontFamily: 'GoogleSansRegular',
+    fontFamily: 'GoogleSansRegular',
     primarySwatch: Colors.blue,
     primaryColor: Colors.white,
     accentColor: Colors.blue,
+    backgroundColor: Colors.black,
     disabledColor: Colors.grey,
     cardColor: Colors.white,
     canvasColor: Colors.white,

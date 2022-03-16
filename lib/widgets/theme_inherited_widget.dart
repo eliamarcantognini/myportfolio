@@ -5,9 +5,9 @@ class ThemeSwitcher extends InheritedWidget {
       data; // We'll use ThemeSwitcher to get access to the current state of ThemeSwitcherWidget
 
   const ThemeSwitcher({
-    Key key,
-    @required this.data,
-    @required Widget child,
+    Key? key,
+    required this.data,
+    required Widget child,
   })  : assert(child != null),
         super(key: key, child: child);
 
@@ -29,7 +29,7 @@ class ThemeSwitcherWidget extends StatefulWidget {
   final Widget
       child; // child to which this boolean variable should be propagated upon change. This will be our app in this case
 
-  ThemeSwitcherWidget({Key key, this.initialDarkModeOn, this.child})
+  ThemeSwitcherWidget({Key? key, required this.initialDarkModeOn, required this.child})
       : assert(initialDarkModeOn != null),
         assert(child != null),
         super(key: key);
@@ -39,12 +39,12 @@ class ThemeSwitcherWidget extends StatefulWidget {
 }
 
 class _ThemeSwitcherWidgetState extends State<ThemeSwitcherWidget> {
-  bool isDarkModeOn;
+  bool? isDarkModeOn;
 
   void switchDarkMode() {
     //method used to toggle dark mode during the runtime of the app
     setState(() {
-      isDarkModeOn = !isDarkModeOn;
+      isDarkModeOn = !isDarkModeOn!;
     });
   }
 

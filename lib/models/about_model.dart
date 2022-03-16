@@ -4,9 +4,9 @@ import 'package:myportfolio/tabs/resume_tab.dart';
 import 'package:myportfolio/tabs/bio_tab.dart';
 
 class About {
-  BioTab bioTab;
-  ResumeTab resumeTab;
-  ProjectsTab projectsTab;
+  BioTab? bioTab;
+  ResumeTab? resumeTab;
+  ProjectsTab? projectsTab;
 
   About() {
     bioTab = new BioTab();
@@ -14,7 +14,7 @@ class About {
     projectsTab = new ProjectsTab();
   }
 
-  List<Widget> getTabs() {
+  List<Widget?> getTabs() {
     return [bioTab, resumeTab, projectsTab];
   }
 

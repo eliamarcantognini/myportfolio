@@ -6,6 +6,10 @@ import 'dart:html' as html;
 class HomeTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final ButtonStyle flatButtonStyle = TextButton.styleFrom(
+        textStyle: Theme.of(context).textTheme.caption,
+        primary: Theme.of(context).backgroundColor);
+
     return SingleChildScrollView(
       child: Center(
         child: Padding(
@@ -40,20 +44,22 @@ class HomeTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.github)),
+                    style: flatButtonStyle,
                     label: Text('Github'),
                     onPressed: () => html.window
                         .open(Constants.PROFILE_GITHUB, 'eliamarcantognini'),
                   ),
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.linkedin)),
+                    style: flatButtonStyle,
                     label: Text('Linkedin'),
                     onPressed: () => html.window
                         .open(Constants.PROFILE_LINKEDIN, 'eliamarcantognini'),
@@ -64,20 +70,22 @@ class HomeTab extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.instagram)),
+                    style: flatButtonStyle,
                     label: Text('Instagram'),
                     onPressed: () => html.window
                         .open(Constants.PROFILE_INSTAGRAM, 'eliamarcantognini'),
                   ),
-                  FlatButton.icon(
+                  TextButton.icon(
                     icon: SizedBox(
                         width: 20,
                         height: 20,
                         child: Image.asset(Assets.facebook)),
+                    style: flatButtonStyle,
                     label: Text('Facebook'),
                     onPressed: () => html.window
                         .open(Constants.PROFILE_FACEBOOK, 'eliamarcantognini'),

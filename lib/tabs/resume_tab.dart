@@ -179,7 +179,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 10,
                   ),
                   Text(
-                    'Language',
+                    'Languages',
                     style: Theme.of(context).textTheme.subtitle1,
                     textScaleFactor: 2,
                     textAlign: TextAlign.right,
@@ -189,122 +189,23 @@ class _ResumeTabState extends State<ResumeTab> {
                   ),
                 ],
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'Python',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'Java',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'SQL',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'C#',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+              Text(
+                'Python   Bash   Java   SQL',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'C',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'Kotlin',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'Dart',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'Scala',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+              Text(
+                'C   Kotlin   Dart   Scala',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'JavaScript',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'TypeScript',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'HTML/CSS',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'PHP7',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+              Text(
+                'JavaScript   TypeScript   HTML/CSS   PHP',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -319,7 +220,7 @@ class _ResumeTabState extends State<ResumeTab> {
                     width: 10,
                   ),
                   Text(
-                    'Tool & Framework',
+                    'Tools & Frameworks',
                     style: Theme.of(context).textTheme.subtitle1,
                     textScaleFactor: 2,
                     textAlign: TextAlign.right,
@@ -329,104 +230,35 @@ class _ResumeTabState extends State<ResumeTab> {
                   ),
                 ],
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'Android Studio',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'MS Visual Studio',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'IntellJ Suite',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+              Text(
+                'Android Studio   Visual Studio   IntellJ Idea   WebStorm',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'Angular',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'NodeJS',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'MongoDB',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'Firebase',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+              Text(
+                'Anaconda   Postman   Git   Unit Test   Flutter',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'Unit Test TDD',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'React',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text(
-                    'Wireshark',
-                    style: Theme.of(context).textTheme.caption,
-                    textScaleFactor: 2,
-                    textAlign: TextAlign.center,
-                  ),
-                ],
+              Text(
+                'Angular   React   NodeJS   Express',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
+              ),
+              Text(
+                'Firebase   MongoDB   MySQL',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
+              ),
+              Text(
+                'Google Cloud Platform',
+                style: Theme.of(context).textTheme.caption,
+                textScaleFactor: 2,
+                textAlign: TextAlign.center,
               ),
               SizedBox(
                 height: 20,

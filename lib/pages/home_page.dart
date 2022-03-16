@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         actions: <Widget>[
           IconButton(
-            icon: ThemeSwitcher.of(context).isDarkModeOn
+            icon: ThemeSwitcher.of(context).isDarkModeOn!
                 ? Icon(Icons.wb_sunny)
                 : Image.asset(
                     Assets.moon,
@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.mobile_screen_share),
+            icon: Icon(Icons.contacts),
             label: 'About',
           )
         ],

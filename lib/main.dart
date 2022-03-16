@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 }
 class MyPortfolio extends StatelessWidget {
   const MyPortfolio({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -25,7 +25,7 @@ class MyPortfolio extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Elia Marcantognini',
-      theme:ThemeSwitcher.of(context).isDarkModeOn?darkTheme(context):lightTheme(context),
+      theme:ThemeSwitcher.of(context).isDarkModeOn!?darkTheme(context):lightTheme(context),
       home: HomePage(),
     );
   }
